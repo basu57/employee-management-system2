@@ -3,8 +3,8 @@ import { AuthContext } from '../../context/AuthProvider'
 
 const AllTask = () => {
 
-   const [userData,setUserData] =  useContext(AuthContext);
-
+  //  const [userData,setUserData] =  useContext(AuthContext);
+const [userData, setUserData] = useContext(AuthContext)
    
   return (
     <div className='bg-[#1c1c1c] p-5 rounded mt-5'>
